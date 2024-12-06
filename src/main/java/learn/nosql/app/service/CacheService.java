@@ -1,7 +1,7 @@
-package learn.nosql.app;
+package learn.nosql.app.service;
 
+import learn.nosql.app.model.User;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;

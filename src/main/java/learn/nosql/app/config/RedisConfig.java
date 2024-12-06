@@ -1,5 +1,6 @@
-package learn.nosql.app;
+package learn.nosql.app.config;
 
+import learn.nosql.app.model.User;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;

@@ -24,4 +24,6 @@ docker run -d --name redis-stack -p 6379:6379 -p 8001:8001 redis/redis-stack:lat
 ```bash
 curl --location 'localhost:8080/users/alice@example.com'
 curl --location 'http://localhost:8080/users?name=Charlie'
+
+curl --location 'http://localhost:8080/users/average-age'
 ```
